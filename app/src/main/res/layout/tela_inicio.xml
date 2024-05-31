@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    //inicio header
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home"
+        android:textAlignment="center"
+        android:textColor="@color/darkblue"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:textColor="@color/darkblue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saudacao"
+        android:textAlignment="viewStart"
+        android:textColor="@color/darkblue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    //fim header
+
+    //denuncias
+
+    //inicio denuncia1
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_home"
+        android:textAlignment="center"
+        android:textColor="@color/darkblue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <Button
+        android:id="@+id/btn_denun1"
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="@color/darkblue"
+        android:drawableStart="@drawable/icon_localizacao"
+        android:drawablePadding="20dp"
+        android:drawableTint="@color/white"
+        android:paddingStart="20dp"
+        android:paddingTop="-50dp"
+        android:paddingEnd="20dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <TextView
+        android:id="@+id/title_denun4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:text="@string/denuncia_1"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:translationZ="100dp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <TextView
+        android:id="@+id/local_denun3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:text="@string/local_1"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:translationZ="100dp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="172dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/data_1"
+        android:textAlignment="textEnd"
+        android:textColor="@color/white"
+        android:translationZ="100dp"
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+    //fim denuncia1
+
+
+    //inicio denuncia2
+    <Button
+        android:id="@+id/btn_denun1"
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="@color/darkblue"
+        android:drawableStart="@drawable/icon_localizacao"
+        android:drawablePadding="20dp"
+        android:drawableTint="@color/white"
+        android:paddingStart="20dp"
+        android:paddingTop="-50dp"
+        android:paddingEnd="20dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/data_2"
+        android:textAlignment="textEnd"
+        android:textColor="@color/white"
+        android:translationZ="100dp"
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <TextView
+        android:id="@+id/title_denun4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:text="@string/denuncia_2"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:translationZ="100dp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <TextView
+        android:id="@+id/local_denun3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:text="@string/local_2"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:translationZ="100dp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="250dp" />
+    //fim denuncia2
+
+    //inicio denuncia3
+    <Button
+        android:id="@+id/btn_denun4"
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="@color/darkblue"
+        android:drawableStart="@drawable/icon_localizacao"
+        android:drawablePadding="20dp"
+        android:drawableTint="@color/white"
+        android:paddingStart="20dp"
+        android:paddingTop="-50dp"
+        android:paddingEnd="20dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/data_3"
+        android:textAlignment="textEnd"
+        android:textColor="@color/white"
+        android:translationZ="100dp"
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="331dp" />
+
+    <TextView
+        android:id="@+id/title_denun4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:text="@string/denuncia_3"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:translationZ="100dp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <TextView
+        android:id="@+id/local_denun3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:text="@string/local_3"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:translationZ="100dp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="334dp" />
+    //fim denuncia3
+
+    //inicio denuncia4
+    <Button
+        android:id="@+id/btn_denun4"
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="@color/darkblue"
+        android:drawableStart="@drawable/icon_localizacao"
+        android:drawablePadding="20dp"
+        android:drawableTint="@color/white"
+        android:paddingStart="20dp"
+        android:paddingTop="-50dp"
+        android:paddingEnd="20dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <TextView
+        android:id="@+id/title_denun4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:text="@string/denuncia_4"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:translationZ="100dp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <TextView
+        android:id="@+id/local_denun3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:text="@string/local_4"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:translationZ="100dp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/data_4"
+        android:textAlignment="textEnd"
+        android:textColor="@color/white"
+        android:translationZ="100dp"
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="415dp" />
+    //fim denuncia4
+
+    //inicio denuncia5
+    <Button
+        android:id="@+id/btn_denun4"
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="@color/darkblue"
+        android:drawableStart="@drawable/icon_localizacao"
+        android:drawablePadding="20dp"
+        android:drawableTint="@color/white"
+        android:paddingStart="20dp"
+        android:paddingTop="-50dp"
+        android:paddingEnd="20dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="471dp" />
+
+    <TextView
+        android:id="@+id/local_denun3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:text="@string/local_5"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:translationZ="100dp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="501dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/data_5"
+        android:textAlignment="textEnd"
+        android:textColor="@color/white"
+        android:translationZ="100dp"
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="498dp" />
+
+    <TextView
+        android:id="@+id/title_denun4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:text="@string/denuncia_5"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:translationZ="100dp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="479dp" />
+    //fim denuncia5
+
+    //inicio denuncia6
+
+    <Button
+        android:id="@+id/btn_denun4"
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="@color/darkblue"
+        android:drawableStart="@drawable/icon_localizacao"
+        android:drawablePadding="20dp"
+        android:drawableTint="@color/white"
+        android:paddingStart="20dp"
+        android:paddingTop="-50dp"
+        android:paddingEnd="20dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="552dp" />
+
+    <TextView
+        android:id="@+id/title_denun4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:text="@string/denuncia_6"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:translationZ="100dp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="560dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/data_6"
+        android:textAlignment="textEnd"
+        android:textColor="@color/white"
+        android:translationZ="100dp"
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="579dp" />
+
+    <TextView
+        android:id="@+id/local_denun3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:text="@string/local_6"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:translationZ="100dp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="582dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/btn_ligar"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="635dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/btn_mapa"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="635dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/btn_add_denuncia"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="635dp" />
+
+    //fim denuncia6
+
+</androidx.constraintlayout.widget.ConstraintLayout>
