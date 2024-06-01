@@ -6,21 +6,26 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/criesuaconta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="120dp"
         android:text="@string/txt_denuncia"
         android:textAlignment="center"
         android:textColor="@color/darkblue"
         android:textSize="20sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="120dp"
-        tools:layout_editor_absoluteY="73dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextMultiLine2"
         android:layout_width="300dp"
         android:layout_height="150dp"
+        android:layout_marginTop="25dp"
         android:background="@drawable/border"
         android:ems="10"
         android:gravity="start|top"
@@ -31,25 +36,28 @@
         android:singleLine="true"
         android:textColor="@color/darkgray"
         android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="@+id/editTextText"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextText"
-        tools:layout_editor_absoluteY="315dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
 
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="15dp"
         android:backgroundTint="@color/white"
         android:scaleType="centerCrop"
         android:src="@drawable/btn_add_foto"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="479dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine2" />
 
     <EditText
         android:id="@+id/editTextTextMultiLine"
         android:layout_width="300dp"
         android:layout_height="40dp"
+        android:layout_marginTop="25dp"
         android:background="@drawable/border"
         android:ems="10"
         android:gravity="center|start"
@@ -59,15 +67,16 @@
         android:textAlignment="textStart"
         android:textColor="@color/darkgray"
         android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
-        tools:layout_editor_absoluteY="189dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cad_user" />
 
     <EditText
         android:id="@+id/editTextText"
         android:layout_width="300dp"
         android:layout_height="40dp"
+        android:layout_marginTop="25dp"
         android:background="@drawable/border"
         android:drawableEnd="@drawable/icon_locationfill"
         android:drawablePadding="15dp"
@@ -78,27 +87,31 @@
         android:paddingEnd="15dp"
         android:textColor="@color/darkgray"
         android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextMultiLine"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextMultiLine"
-        tools:layout_editor_absoluteY="252dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="140dp"
         android:layout_height="wrap_content"
-        android:background="@color/darkblue"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/corners"
         android:text="@string/btn_salvar"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="605dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/cad_user"
         android:layout_width="300dp"
         android:layout_height="40dp"
+        android:layout_marginTop="40dp"
         android:autofillHints="@string/cadastro_hint_nomecompleto"
         android:background="@drawable/border"
         android:ems="10"
@@ -107,16 +120,20 @@
         android:paddingStart="15dp"
         android:textColor="@color/darkgray"
         android:textSize="14sp"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="127dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/criesuaconta" />
 
     <ImageButton
         android:id="@+id/btn_voltar"
         android:layout_width="30dp"
         android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
         android:backgroundTint="@color/white"
         android:src="@drawable/btn_voltar"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="26dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
