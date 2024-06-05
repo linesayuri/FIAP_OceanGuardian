@@ -2,7 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/white">
 
     <TextView
         android:id="@+id/criesuaconta"
@@ -34,6 +35,7 @@
         android:inputType="text|textPersonName"
         android:paddingStart="15dp"
         android:paddingEnd="15dp"
+        android:textColorHint="@color/darkgray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/criesuaconta" />
@@ -52,6 +54,7 @@
         android:inputType="text|textPersonName"
         android:paddingStart="15dp"
         android:paddingEnd="15dp"
+        android:textColorHint="@color/darkgray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cad_nome" />
@@ -70,6 +73,7 @@
         android:inputType="text|textEmailAddress"
         android:paddingStart="15dp"
         android:paddingEnd="15dp"
+        android:textColorHint="@color/darkgray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cad_user" />
@@ -88,6 +92,7 @@
         android:inputType="phone"
         android:paddingStart="15dp"
         android:paddingEnd="15dp"
+        android:textColorHint="@color/darkgray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cad_email" />
@@ -106,6 +111,7 @@
         android:inputType="text|textPassword"
         android:paddingStart="15dp"
         android:paddingEnd="15dp"
+        android:textColorHint="@color/darkgray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cad_celular" />
@@ -124,6 +130,7 @@
         android:inputType="text|textPassword"
         android:paddingStart="15dp"
         android:paddingEnd="15dp"
+        android:textColorHint="@color/darkgray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cad_senha" />

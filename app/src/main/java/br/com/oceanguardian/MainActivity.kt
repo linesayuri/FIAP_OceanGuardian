@@ -31,12 +31,5 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-
-        val btntest: Button = findViewById(R.id.btn_test)
-
-        btntest.setOnClickListener {
-            val intent = Intent(this, TelaTeste::class.java)
-            startActivity(intent)
-        }
     }
 }
