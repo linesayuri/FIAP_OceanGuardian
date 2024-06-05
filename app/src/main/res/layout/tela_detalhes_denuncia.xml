@@ -1,41 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <ImageButton
         android:id="@+id/btn_voltar"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="25dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
         android:backgroundTint="@color/white"
+        android:contentDescription="@string/content_desc_btnvoltar"
         android:src="@drawable/btn_voltar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/criesuaconta"
+        android:id="@+id/title_denun1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="129dp"
         android:text="@string/denuncia_1"
         android:textAlignment="center"
         android:textColor="@color/darkblue"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/criesuaconta"
+        android:id="@+id/local_denun1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="-50dp"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="167dp"
         android:text="@string/local_1"
         android:textAlignment="center"
         android:textColor="@color/darkblue"
@@ -43,34 +46,45 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/criesuaconta" />
+        app:layout_constraintTop_toBottomOf="@+id/title_denun1" />
 
     <TextView
-        android:id="@+id/criesuaconta"
+        android:id="@+id/local_denun1_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="143dp"
         android:text="@string/local_1_2"
         android:textAlignment="center"
         android:textColor="@color/darkblue"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="133dp" />
+        app:layout_constraintTop_toBottomOf="@+id/local_denun1" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="320dp"
-        android:layout_height="260dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="46dp"
+        android:contentDescription="@string/content_desc_img1"
         android:src="@drawable/img_denun_41"
-        tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="187dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/local_denun1_2" />
 
     <EditText
         android:id="@+id/editTextTextMultiLine2"
         android:layout_width="320dp"
         android:layout_height="150dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="46dp"
+        android:autofillHints="@string/desc_denun1"
         android:background="@drawable/border"
         android:ems="10"
         android:gravity="start|top"
@@ -82,16 +96,8 @@
         android:singleLine="true"
         android:textColor="@color/darkgray"
         android:textSize="14sp"
-        tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="471dp" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        android:background="@drawable/corners"
-        tools:layout_editor_absoluteX="182dp"
-        tools:layout_editor_absoluteY="644dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

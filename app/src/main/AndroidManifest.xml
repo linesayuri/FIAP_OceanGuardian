@@ -13,10 +13,41 @@
         android:theme="@style/Theme.OceanGuardian"
         tools:targetApi="31">
         <activity
+            android:name=".TelaInicio"
+            android:exported="false"
+            android:label="TelaInicio"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".TelaCadastro"
+            android:exported="false"
+            android:label="TelaCadastro"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".TelaDenuncia"
+            android:exported="false"
+            android:label="TelaDenuncia"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".TelaDetalhesDenuncia"
+            android:exported="false"
+            android:label="TelaDetalhesDenuncia"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".TelaMapa"
+            android:exported="false"
+            android:label="TelaMapa"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".TelaTeste"
+            android:exported="false"
+            android:label="TelaTeste"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.OceanGuardian">
+            android:theme="@style/Theme.AppCompat"
+            tools:ignore="RedundantLabel">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

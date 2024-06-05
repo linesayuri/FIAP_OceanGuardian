@@ -9,10 +9,10 @@
 
     <ImageButton
         android:id="@+id/btn_voltar"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="25dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
         android:backgroundTint="@color/white"
         android:src="@drawable/btn_voltar"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="181dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="180dp"
         android:text="@string/mapa"
         android:textAlignment="center"
@@ -36,10 +36,10 @@
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="310dp"
-        android:layout_height="54dp"
+        android:layout_width="321dp"
+        android:layout_height="38dp"
         android:layout_marginStart="51dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="50dp"
         android:text="@string/txt_mapa"
         android:textColor="@color/black"
@@ -66,91 +66,48 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="46dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/denuncia_1"
         android:src="@drawable/local_pin"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:src="@drawable/local_pin"
-        tools:layout_editor_absoluteX="94dp"
-        tools:layout_editor_absoluteY="257dp" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:src="@drawable/local_pin"
-        tools:layout_editor_absoluteX="271dp"
-        tools:layout_editor_absoluteY="356dp" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:src="@drawable/local_pin_vermelho"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="378dp" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:src="@drawable/local_pin"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="316dp" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:src="@drawable/local_pin"
-        tools:layout_editor_absoluteX="286dp"
-        tools:layout_editor_absoluteY="249dp" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:src="@drawable/local_pin_preto"
-        tools:layout_editor_absoluteX="120dp"
-        tools:layout_editor_absoluteY="345dp" />
-
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/map_txt_denun1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
         android:text="@string/denuncia_1"
         android:textColor="@color/darkblue"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="536dp" />
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/map_local_denun_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
         android:text="@string/local_1_2"
         android:textColor="@color/darkblue"
         android:textSize="16sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="567dp" />
+        app:layout_constraintStart_toStartOf="@+id/map_txt_denun1"
+        app:layout_constraintTop_toBottomOf="@+id/map_txt_denun1" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/map_local_denun_1_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
         android:text="@string/local_1"
         android:textColor="@color/darkblue"
         android:textSize="16sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="596dp" />
+        app:layout_constraintStart_toStartOf="@+id/map_local_denun_1"
+        app:layout_constraintTop_toBottomOf="@+id/map_local_denun_1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

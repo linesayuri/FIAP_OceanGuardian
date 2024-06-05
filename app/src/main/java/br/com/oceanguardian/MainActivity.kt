@@ -1,46 +1,42 @@
 package br.com.oceanguardian
 
+import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
+import android.widget.ImageButton
+import android.widget.PopupMenu
+import android.widget.Toast
 import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import br.com.oceanguardian.ui.theme.OceanGuardianTheme
+import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : ComponentActivity() {
+class MainActivity : AppCompatActivity() {
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContent {
-            OceanGuardianTheme {
-                // A surface container using the 'background' color from the theme
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
-                ) {
-                    Greeting("Android")
-                }
-            }
+        setContentView(R.layout.tela_login)
+
+        val btnsitegov: Button = findViewById(R.id.btn_sitegov)
+
+        btnsitegov.setOnClickListener {
+            val intent = Intent(this, TelaInicio::class.java)
+            startActivity(intent)
         }
-    }
-}
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
 
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    OceanGuardianTheme {
-        Greeting("Android")
+        val btncadastro: Button = findViewById(R.id.btn_cadastro)
+
+        btncadastro.setOnClickListener {
+            val intent = Intent(this, TelaCadastro::class.java)
+            startActivity(intent)
+        }
+
+
+        val btntest: Button = findViewById(R.id.btn_test)
+
+        btntest.setOnClickListener {
+            val intent = Intent(this, TelaTeste::class.java)
+            startActivity(intent)
+        }
     }
 }

@@ -46,7 +46,12 @@
     <string name="cadastro_hint_confir_senha">Confirmar senha</string>
     <string name="login_btn_cadastrar">Cadastrar</string>
     <string name="desc_denun1">A Baleia estava encalhada na região próxima a Fonte do Sapo</string>
-
+    <string name="content_desc_btnvoltar">Botão Voltar</string>
+    <string name="content_desc_img1">Imagem da denúncia</string>
+    <string name="content_add_img">Adicione Imagens</string>
+    <string name="popupmenu_item1">Bombeiros</string>
+    <string name="popupmenu_item2">Polícia</string>
+    <string name="popupmenu_item3">Guarda Costeira</string>
 
 
 </resources>
