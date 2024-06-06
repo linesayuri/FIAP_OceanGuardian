@@ -19,6 +19,7 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
+
     }
 
     buildTypes {
@@ -47,6 +48,7 @@ android {
 
     secrets {
         propertiesFileName = "local.properties"
+        defaultPropertiesFileName = "local.defaults.properties"
     }
 
     packaging {
@@ -75,6 +77,7 @@ dependencies {
     implementation("com.google.maps.android:maps-utils-ktx:5.0.0")
     implementation("com.google.maps.android:maps-ktx:5.0.0")
     implementation("com.google.android.gms:play-services-location:21.3.0")
+    implementation("com.google.android.libraries.mapsplatform.transportation:transportation-consumer:2.2.0")
     // Google Maps Compose library
     val mapsComposeVersion = "4.4.1"
     implementation("com.google.maps.android:maps-compose:$mapsComposeVersion")

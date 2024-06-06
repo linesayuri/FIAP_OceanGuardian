@@ -10,14 +10,13 @@
     <string name="denuncia_2">Lixo na orla</string>
     <string name="denuncia_3">Tartaruga encalhada</string>
     <string name="denuncia_4">Grande quantidade de lixo no mar</string>
-    <string name="denuncia_5">Despejo inadequado de resíduos</string>
-    <string name="denuncia_6">Derramamento de óleo</string>
+    <string name="denuncia_5">Derramamento de óleo</string>
+    <string name="denuncia_6">Despejo inadequado de resíduos</string>
     <string name="local_1">Santos-SP</string>
-    <string name="local_2">Local</string>
-    <string name="local_3">Local</string>
-    <string name="local_4">Local</string>
-    <string name="local_5">Local</string>
-    <string name="local_6">Local</string>
+    <string name="local_2">Rio de Janeiro-RJ</string>
+    <string name="local_3">Guarujá-SP</string>
+    <string name="local_4">São Vicente-SP</string>
+    <string name="local_5">Marataízes - ES</string>
     <string name="local_1_2">Praia do Gonzaga</string>
     <string name="data_1" tools:ignore="TypographyDashes">27/05/24 - 14:16</string>
     <string name="data_2" tools:ignore="TypographyDashes">27/05/24 - 14:03</string>

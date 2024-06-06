@@ -49,11 +49,6 @@
             android:label="TelaMapa"
             android:theme="@style/Theme.AppCompat" />
         <activity
-            android:name=".TelaTeste"
-            android:exported="false"
-            android:label="TelaTeste"
-            android:theme="@style/Theme.AppCompat" />
-        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"

@@ -45,13 +45,37 @@ class TelaMapa : AppCompatActivity(), OnMapReadyCallback {
 //pin
 
         override fun onMapReady(googleMap: GoogleMap) {
-            val sydney = LatLng(-33.852, 151.211)
+            val denuncia1 = LatLng(-23.979446, -46.315194)
             googleMap.addMarker(
                 MarkerOptions()
-                    .position(sydney)
-                    .title("Marker in Sydney"))
+                    .position(denuncia1)
+                    .title("Baleia Encalhada"))
 
-            googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
+            val denuncia2 = LatLng(-22.968850, -43.178480)
+            googleMap.addMarker(
+                MarkerOptions()
+                    .position(denuncia2)
+                    .title("Lixo na Orla"))
+
+            val denuncia3 = LatLng(-23.908673, -46.164759)
+            googleMap.addMarker(
+                MarkerOptions()
+                    .position(denuncia3)
+                    .title("Tartaruga Encalhada"))
+
+            val denuncia4 = LatLng(-23.970984,  -46.366082)
+            googleMap.addMarker(
+                MarkerOptions()
+                    .position(denuncia4)
+                    .title("Grande Quantidade de Lixo no Mar"))
+
+            val denuncia5 = LatLng(-21.017784, -40.809760)
+            googleMap.addMarker(
+                MarkerOptions()
+                    .position(denuncia5)
+                    .title("Derramamento de Óleo"))
+
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(denuncia1))
 
         }
     }
