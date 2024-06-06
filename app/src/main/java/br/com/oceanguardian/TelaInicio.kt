@@ -4,6 +4,8 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
+import android.widget.PopupMenu
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class TelaInicio : AppCompatActivity() {
@@ -12,22 +14,12 @@ class TelaInicio : AppCompatActivity() {
         setContentView(R.layout.tela_inicio)
 
 
-        val btnligar: ImageButton = findViewById(R.id.btn_ligar)
-
-        btnligar.setOnClickListener {
-            val intent = Intent(this, TelaDetalhesDenuncia::class.java)
-            startActivity(intent)
-        }
-
-
         val btndenuncia: ImageButton = findViewById(R.id.btn_add_denuncia)
 
         btndenuncia.setOnClickListener {
             val intent = Intent(this, TelaDenuncia::class.java)
             startActivity(intent)
         }
-
-
 
         val btnmapa: ImageButton = findViewById(R.id.btn_mapa)
 
@@ -43,6 +35,21 @@ class TelaInicio : AppCompatActivity() {
             val intent = Intent(this, TelaDetalhesDenuncia::class.java)
             startActivity(intent)
         }
+
+        val button: ImageButton = findViewById(R.id.btn_ligar)
+
+        button.setOnClickListener {
+            PopupMenu(this@TelaInicio, button).apply {
+                menuInflater.inflate(R.menu.menu_ligar, this.menu)
+                setOnMenuItemClickListener {
+                    //logica
+                    Toast.makeText(this@TelaInicio, "${it.itemId}, ${it.title}", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                show()
+            }
+        }
+
 
 
     }
